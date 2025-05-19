@@ -1,4 +1,4 @@
-package com.ecomerce.demo.Producto.entity;
+package com.ecomerce.demo.Producto.Entity;
 
 import java.time.LocalDateTime;
 

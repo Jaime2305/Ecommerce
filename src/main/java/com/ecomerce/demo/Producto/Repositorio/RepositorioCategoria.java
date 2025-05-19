@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ecomerce.demo.Producto.entity.Categoria;
+import com.ecomerce.demo.Producto.Entity.Categoria;
 
 @Repository
 public interface RepositorioCategoria extends JpaRepository<Categoria, Long> {

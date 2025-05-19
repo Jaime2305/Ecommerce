@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ecomerce.demo.Producto.DTOs.RegistroProducto;
+import com.ecomerce.demo.Producto.Entity.Categoria;
+import com.ecomerce.demo.Producto.Entity.RegistroCamposProductos;
 import com.ecomerce.demo.Producto.Repositorio.RepositorioCategoria;
 import com.ecomerce.demo.Producto.Repositorio.RepositorioProducto;
-import com.ecomerce.demo.Producto.entity.Categoria;
-import com.ecomerce.demo.Producto.entity.RegistroCamposProductos;
 
 
 @Service
