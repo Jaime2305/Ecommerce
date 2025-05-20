@@ -2,6 +2,8 @@ package com.ecomerce.demo.Producto.Entity;
 
 import java.time.LocalDateTime;
 
+import org.hibernate.annotations.DynamicInsert;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,6 +15,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name= "productos")
+@DynamicInsert
 public class RegistroCamposProductos {
     
     @Id
